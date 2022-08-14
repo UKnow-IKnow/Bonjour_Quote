@@ -1,0 +1,10 @@
+{
+    "name": "Bonjour Quote",
+    "description": "Shows random quotes from Api",
+    "version": "0.0.1",
+    "manifest_version": 2,
+    "browser_action":{
+        "default_popup": "popup.html"
+    },
+    "permisssions": ["activeTab"]
+}
