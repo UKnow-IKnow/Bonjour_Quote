@@ -1,18 +1,29 @@
-body {
-    width: 300px;
-    height: 200px;
-    border-radius: 20px;
-    background-color: black;
-    display: flex;
-    background-blend-mode: darken;
-    justify-content: center;
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Dancing Script', cursive;
 }
 
-p {
-    display: inner-flex;
-    margin: auto 10px;
-    font-size: 15px;
-    font-family: 'Montserrat', sans-serif;
-    color: white;
-    padding: 10px;
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.box{
+    position: relative;
+    width: 320px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: #2d0041;
+}
+
+p{
+    margin: 10%;
+    font-size: 20px;
+    color: whitesmoke;
 }
