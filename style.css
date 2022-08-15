@@ -1,17 +1,17 @@
-*{
+* {
     margin: 0;
     padding: 0;
     font-family: 'Dancing Script', cursive;
 }
 
-body{
+body {
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
 }
 
-.box{
+.box {
     position: relative;
     width: 320px;
     height: 200px;
@@ -19,11 +19,11 @@ body{
     justify-content: center;
     align-items: center;
     text-align: center;
-    background:  linear-gradient(179.4deg, rgb(12, 20, 69) -16.9%, rgb(71, 30, 84) 119.9%);
+    background: linear-gradient(179.4deg, rgb(12, 20, 69) -16.9%, rgb(71, 30, 84) 119.9%);
     text-size-adjust: auto;
 }
 
-p{
+p {
     margin: 10%;
     font-size: 20px;
     color: whitesmoke;
